@@ -1,0 +1,181 @@
+﻿.table_form-wrap {
+    margin: 3% auto;
+    font-family: Microsoft JhengHei;
+}
+
+.table_form-wrap .form-wraper {
+    margin-bottom: 2em;
+}
+
+.table_form-wrap .form-wraper .main-form .left {
+    text-align: left;
+}
+
+.table_form-wrap .form-wraper .main-form .btn-row {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap {
+    padding: .2em;
+}
+
+    .table_form-wrap .form-wraper .main-form .input-wrap input {
+        background: #eaeaea;
+        border: 0;
+    }
+
+.table_form-wrap .form-wraper .main-form .input-wrap--bg-white input {
+    background: #fff;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group {
+    position: relative;
+    display: inline-block;
+}
+
+    .table_form-wrap .form-wraper .main-form .input-wrap__group input {
+        float: none !important;
+        max-width: inherit !important;
+    }
+
+    .table_form-wrap .form-wraper .main-form .input-wrap__group:not(:first-child)::before {
+        content: "";
+        position: absolute;
+        background: #e6e6e6;
+        left: -3px;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        height: 85%;
+        width: 0px;
+    }
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--10 {
+    width: 9%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--20 {
+    width: 19%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--30 {
+    width: 29%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--33 {
+    width: 32%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--40 {
+    width: 39%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--50 {
+    width: 49%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--60 {
+    width: 59%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--70 {
+    width: 69%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--80 {
+    width: 79%;
+}
+
+.table_form-wrap .form-wraper .main-form .input-wrap__group--90 {
+    width: 89%;
+}
+
+.table_form-wrap .form-wraper .main-form .phone-col::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.table_form-wrap .form-wraper .main-form .phone-col input:nth-child(1) {
+    float: left;
+    max-width: 19%;
+}
+
+.table_form-wrap .form-wraper .main-form .phone-col input:nth-child(2) {
+    float: right;
+    max-width: 80%;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper {
+    border-radius: 3px;
+    background: #fff;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table td {
+    border: 1px solid #eee;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .btn-row {
+    height: 5em;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .left-padding-xs {
+    padding-left: .3em;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .no-left-border {
+    border-left: 0;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .no-right-border {
+    border-right: 0;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .no-top-border {
+    border-top: 0;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .no-bottom-border {
+    border-bottom: 0;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .no-padding-left {
+    padding-left: 0;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .label-and-input-wrap::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .label-and-input-wrap label {
+    float: left;
+    width: 16%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.table_form-wrap .form-wraper .main-form .table-wraper__table .label-and-input-wrap input {
+    float: right;
+    width: 83.5%;
+}
+
+.table_form-wrap .form-wraper .main-form .file {
+    display: block;
+    width: 100%;
+    max-width: 60vw;
+    padding: .3em 0;
+}
+
+.table_form-wrap .form-wraper .main-form .file ~ .notice-msg {
+    text-align: left;
+    font-size: .8em;
+}
