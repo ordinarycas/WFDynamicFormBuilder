@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="Content\Custom\table_form.css" />
     <Content Include="Content\Custom\table_form_extend.css" />
+    <Content Include="DemoData\WFDynamicFormBuilder.gif" />
     <Content Include="FormDeign.aspx" />
     <Content Include="FormManage.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
